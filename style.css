@@ -376,16 +376,16 @@ contact-grid .about-text h4:hover {
 
 .layer h5 {
   color: #000;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 700;
   margin-bottom: 15px;
 }
 
 .layer p {
   color: #000;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 600;
-  line-height: 1.8;
+  line-height: 1.5;
 }
 
 .layer a {
@@ -395,10 +395,10 @@ contact-grid .about-text h4:hover {
 .layer i {
   color: #ff004f;
   margin-top: 20px;
-  font-size: 25px;
+  font-size: 23px;
   background: #fff;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
