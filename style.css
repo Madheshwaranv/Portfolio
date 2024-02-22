@@ -273,7 +273,7 @@ aside {
 
 }
 
-.container1 {
+.home-content .container1 {
   opacity: 0;
   animation: slideRight 1s ease forwards;
 }
@@ -346,19 +346,27 @@ aside {
   padding: 0 20px;
 }
 
+.row-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+
 .row {
   position: relative;
   overflow: hidden;
   border-radius: 8px;
   cursor: pointer;
+  /* width: 95%; */
 }
 
-.row a{
+.row a {
   padding: 0 5px;
 }
 
 .row img {
-  height: 270px;
+  height: 240px;
   width: 100%;
   border-radius: 8px;
   display: block;
@@ -387,7 +395,7 @@ aside {
   color: #000;
   font-size: 23px;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin: 10px 0 5px 0;
 }
 
 .layer p {
@@ -395,6 +403,7 @@ aside {
   font-size: 0.9rem;
   font-weight: 600;
   line-height: 1.5;
+  margin-bottom: 5px !important;
 }
 
 .layer a {
@@ -403,11 +412,10 @@ aside {
 
 .layer i {
   color: #ff004f;
-  margin-top: 20px;
-  font-size: 25px;
+  font-size: 20px;
   background: #fff;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -460,7 +468,7 @@ aside {
   /* justify-content: center; */
 }
 
-.contact-text h4 {
+.row .contact-text h4 {
   margin: 20px 0 25px 0;
   color: rgb(228, 228, 228);
   font-size: 40px;
@@ -641,6 +649,7 @@ form textarea {
   }
 }
 
+
 @media screen and (max-width: 950px) {
   body {
     padding-top: 20px;
@@ -655,8 +664,9 @@ form textarea {
     width: 100%;
     flex: auto;
     align-items: center;
-    padding: 50px 0 50px 50px;
+    padding: 50px 0 50px 20px;
   }
+
 
   .home-content h1 {
     font-size: 46px;
@@ -685,6 +695,12 @@ form textarea {
     justify-content: center;
     align-items: center;
   }
+
+  .Portfolio-content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
 }
 
 @media (min-width: 1200px) {
@@ -733,11 +749,7 @@ form textarea {
   .container2 {
     width: 90%;
   }
-}
 
-
-
-@media screen and (max-width: 1200px) {
   aside {
     flex-direction: column;
     align-items: center;
@@ -748,6 +760,7 @@ form textarea {
     text-align: center;
   }
 }
+
 
 
 @media (min-width:950) and (max-width: 1200px) {
@@ -783,18 +796,6 @@ form textarea {
   }
 
 }
-
-@media screen and (max-width: 900px) {
-  .Portfolio-content {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
-  .Portfolio-content {
-    padding: 0 10px;
-  }
-}
-
 
 
 @media screen and (max-width: 1000px) {
