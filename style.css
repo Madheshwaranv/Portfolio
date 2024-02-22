@@ -468,7 +468,7 @@ aside {
   /* justify-content: center; */
 }
 
-.row .contact-text h4 {
+.contact-text h4 {
   margin: 20px 0 25px 0;
   color: rgb(228, 228, 228);
   font-size: 40px;
@@ -703,6 +703,14 @@ form textarea {
 
 }
 
+.contact-text-con {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  width: 100%;
+}
+
+
 @media (min-width: 1200px) {
   .about-text {
     min-width: 40%;
@@ -806,6 +814,7 @@ form textarea {
   .contact-text-con {
     display: flex;
     align-items: center;
+    justify-content: start;
   }
 
   .contact-header h2 {
