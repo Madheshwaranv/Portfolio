@@ -285,7 +285,7 @@ aside {
 
 .container1 h1,
 .container2 h1 {
-  font-size: 37px;
+  font-size: 42px;
   margin-bottom: 20px;
 }
 
@@ -804,7 +804,6 @@ form textarea {
   }
 
 }
-
 
 @media screen and (max-width: 1000px) {
   .contact-grid {
