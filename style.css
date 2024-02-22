@@ -76,10 +76,6 @@ body {
   padding: 70px 30px;
 }
 
-.home-content-con {
-  min-width: 465px;
-}
-
 .home-content {
   max-width: 600px;
   flex: 1;
@@ -260,7 +256,7 @@ aside {
 .main-skill-container {
   width: 100%;
   display: flex;
-  padding: 20px 40px;
+  padding: 20px 20px;
   justify-content: space-evenly;
 
 }
@@ -347,8 +343,7 @@ aside {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
-  padding: 0 40px;
-
+  padding: 0 20px;
 }
 
 .row {
@@ -356,6 +351,10 @@ aside {
   overflow: hidden;
   border-radius: 8px;
   cursor: pointer;
+}
+
+.row a{
+  padding: 0 5px;
 }
 
 .row img {
@@ -416,7 +415,7 @@ aside {
 }
 
 .row:hover img {
-  transform: scale(1.1);
+  transform: scale(1.03);
 }
 
 .row:hover .layer {
@@ -654,7 +653,7 @@ form textarea {
 
   .home-content {
     width: 100%;
-    flex: 1;
+    flex: auto;
     align-items: center;
     padding: 50px 0 50px 50px;
   }
@@ -680,7 +679,7 @@ form textarea {
     height: auto;
   }
 
-  h1 .home-content-con {
+  .home-content-con {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -717,6 +716,10 @@ form textarea {
   .soft-skills-conatiner {
     font-size: 23px;
   }
+
+  .contact-text h4 {
+    font-size: 30px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -731,6 +734,8 @@ form textarea {
     width: 90%;
   }
 }
+
+
 
 @media screen and (max-width: 1200px) {
   aside {
