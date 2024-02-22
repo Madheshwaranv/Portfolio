@@ -720,8 +720,7 @@ form textarea {
 
 @media (min-width: 900px) {
   .home-content {
-    max-width: 600px;
-    flex: 1;
+    min-width: 470px;
   }
 }
 
